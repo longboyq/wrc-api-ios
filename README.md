@@ -27,7 +27,7 @@
 1、 获得SDK实例：
 
 ```objective-c
-BLEManager *manager = [BLEManager sharedInstance];
+YLFKBlueToothManager *manager = [YLFKBlueToothManager sharedInstance];
 ```
 添加delegate:
 ```objective-c
@@ -86,7 +86,7 @@ self.manager.isConnected
 
 8、按键事件回调
 ```objective-c
--(void)bleKeyDownEvent:(BLEKeyCode)keyCode action:(BLEAction)action
+-(void)YLFKBlueToothKeyDownEvent:(BLEKeyCode)keyCode action:(BLEAction)action
 ```
-连接完成后方控按下会调用该委托。第一个参数keyCode说明当前是什么键，第二隔参数action说明是单击还是长按。
+连接完成后方控按下会调用该委托。第一个参数keyCode说明当前按下键类型，第二隔参数action说明是单击还是长按。
 
