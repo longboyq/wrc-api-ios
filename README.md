@@ -20,7 +20,7 @@
 
 在ios工程中加入SDK所需的framework文件，并在项目General选项中添加framework引用，以xcode为例，如下图所示，加入亿连开放平台SDK：
 
-![加入SDK](docs/img/2.jpg)
+![加入SDK](2.jpg)
 
 <h2 id="SDK接入步骤">三、SDK接入步骤</h2>
 
