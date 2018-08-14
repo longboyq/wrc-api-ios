@@ -1,0 +1,6 @@
+framework module YLFKSDK {
+  umbrella header "YLFKSDK.h"
+
+  export *
+  module * { export * }
+}

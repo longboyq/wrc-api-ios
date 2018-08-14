@@ -1,7 +1,7 @@
 
 #import <CoreBluetooth/CoreBluetooth.h>
 
-@interface CBPeripheral(EDrive)
+@interface CBPeripheral(YLFKSDK)
 
 @property (nonatomic, strong) NSString *macAddress;
 @property (nonatomic, strong) NSString *batteryLevel;

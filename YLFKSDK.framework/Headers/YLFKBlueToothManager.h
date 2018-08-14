@@ -7,7 +7,7 @@
 //
 
 #import <CoreBluetooth/CoreBluetooth.h>
-#import "CBPeripheral+EDrive.h"
+#import "CBPeripheral+YLFKSDK.h"
 #import "YLFKBlueToothControl.h"
 
 // 亿连方控类型
