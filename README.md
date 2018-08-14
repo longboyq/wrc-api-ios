@@ -18,9 +18,12 @@
 
 <h2 id="配置开发环境">二、配置开发环境</h2>
 
-在ios工程中加入SDK所需的framework文件，并在项目General选项中添加framework引用，以xcode为例，如下图所示，加入亿连开放平台SDK：
+1.在ios工程中加入SDK所需的framework文件，并在项目General选项中添加framework引用，以xcode为例，如下图所示，加入亿连开放平台SDK：
 
 ![加入SDK](2.png)
+
+2.在Build Settings中的Other Linker Flags添加:-all_load
+![添加Linker](3.png)
 
 <h2 id="SDK接入步骤">三、SDK接入步骤</h2>
 
