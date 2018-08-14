@@ -84,5 +84,9 @@ self.manager.isConnected
 ```
 参数peripheral为需要断开的设备，如果传nil则默认断开当前连接的设备。
 
-
+8、按键事件回调
+```objective-c
+-(void)bleKeyDownEvent:(BLEKeyCode)keyCode action:(BLEAction)action
+```
+连接完成后方控按下会调用该委托。第一个参数keyCode说明当前是什么键，第二隔参数action说明是单击还是长按。
 
